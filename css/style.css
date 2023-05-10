@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Inter:wght@400;700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+
+
+
+*{  margin:auto;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    }
+body{background-color: hsl(233, 47%, 7%);
+     display: flex;
+     justify-content: center;
+     align-items:center;
+     height: 100vh;
+}
+.conteiner{ width: 70em;
+            height: 29.7em;
+            background: hsl(244, 38%, 16%);
+            border-radius: 1em;
+
+}
+.pic{ background-image:url(../images/image-header-desktop.jpg);
+      width: 35em;
+      height: 29.6em;
+      background-repeat: no-repeat;
+      margin-right: 0;
+      margin-top: -3.7em;
+      border-top-right-radius: 1em;
+      border-bottom-right-radius: 1em;
+       
+
+}
+.prpl{ position: relative;
+    width: 35em;
+    height: 29.6em;
+    background: hsl(277, 64%, 61%);
+    margin-right: 0;
+    margin-top: -29.6em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    opacity:0.95;
+    mix-blend-mode: multiply;
+    filter: blur(-5);
+    
+    }
+
+
+.headerr{width: 25em;
+    height: auto;
+    position:absolute;
+    color: hsl(0, 0%, 100%);
+    margin-left: 6em; 
+    margin-top: 5em;
+
+             
+}
+.get ,.thathelp ,.business{font-family: [Lexend Deca];
+    font-weight: 700;
+    font-size: xx-large;
+
+}
+.insights{font-family: [Lexend Deca];
+    font-weight: 700;
+    font-size: xx-large;
+    color: hsl(277, 64%, 61%);
+
+}
+
+p{width: 22em;
+    height: auto;
+    position:absolute;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 6em; 
+    margin-top: 12em;}
+
+.k{font-size:1.5em;
+    font-weight: bolder;
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+   font-family: Inter;
+   margin-top: 13em;
+   margin-left:4em;
+}
+
+
+.c{font-size:.8em;
+    position: absolute;
+    color: hsla(0, 0%, 100%, 0.6);
+   font-family: Lexend Deca;
+   margin-top: 26em;
+   margin-left:7.6em;}
+
+.two{font-size:1.5em;
+    font-weight: bolder;
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+   font-family: Inter;
+   margin-top: 12.2em;
+   margin-left:9.5em;
+}
+
+
+.t{font-size:.8em;
+    position: absolute;
+    color: hsla(0, 0%, 100%, 0.6);
+   font-family: Lexend Deca;
+   margin-top: 24.4em;
+   margin-left:18em;}
+
+   .m{font-size:1.5em;
+    font-weight: bolder;
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+   font-family: Inter;
+   margin-top: 11.3em;
+   margin-left:15.3em;
+}
+
+
+.q{font-size:.8em;
+    position: absolute;
+    color: hsla(0, 0%, 100%, 0.6);
+   font-family: Lexend Deca;
+   margin-top: 22.7em;
+   margin-left:29em;}
